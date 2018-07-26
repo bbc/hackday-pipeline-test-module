@@ -3,9 +3,7 @@ phases:
   install:
     commands:
       - echo "Installing..."
-  build:
-    commands:
-      - echo "Building..."
+      - npm install
 artifacts:
   files:
     - '**/*'
