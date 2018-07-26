@@ -4,6 +4,7 @@ phases:
     commands:
       - echo "Installing..."
       - npm install
+      - tar --exclude .git/ --exclude .gitignore -cjv -f bundle.tar.gz .
 artifacts:
   files:
-    - '**/*'
+    - 'bundle.tar.gz'
