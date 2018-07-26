@@ -1,1 +1,1 @@
-# hackday-pipeline-test-module
+# Lambda Pipeline Test Module
