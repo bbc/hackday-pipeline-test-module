@@ -8,9 +8,7 @@
     "test": "./build_scripts/test.sh"
   },
   "dependencies": {
-    "grunt-cli": "^1.2.0"
-  },
-  "devDependencies": {
+    "grunt-cli": "^1.2.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
     "grunt": "^0.4.5",
