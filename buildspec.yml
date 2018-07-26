@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
     commands:
-      - tar --exclude .git -cjv -f bundle.tar.gz .
+      - tar --exclude .git --exclude dist -cjv -f dist/bundle.tar.gz .
 artifacts:
   files:
-    - 'bundle.tar.gz'
+    - 'dist/bundle.tar.gz'
