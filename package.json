@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "eslint": "./node_modules/.bin/eslint --ext .js --ext .jsx src test",
-    "build": "./build_scripts/build.sh",
-    "test": "./build_scripts/test.sh"
+    "eslint": "eslint .",
+    "build": "npm install --production",
+    "test": "jasmine test/*.spec.js",
+    "posttest": "npm run eslint"
   },
-  "dependencies": {
-    "grunt-cli": "^1.2.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.12.0",
-    "grunt": "^0.4.5",
-    "grunt-eslint": "^20.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "jasmine": "^3.1.0"
   }
 }
