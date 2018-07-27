@@ -5,8 +5,7 @@
   "scripts": {
     "eslint": "eslint .",
     "build": "npm install --production",
-    "test": "jasmine test/*.spec.js",
-    "posttest": "npm run eslint"
+    "test": "jasmine test/*.spec.js"
   },
   "dependencies": {},
   "devDependencies": {
