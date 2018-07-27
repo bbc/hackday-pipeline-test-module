@@ -1,3 +1,3 @@
 # Lambda Pipeline Test Module
 
-pipeline test
+pipeline test demo
