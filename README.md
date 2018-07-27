@@ -1,3 +1,3 @@
 # Lambda Pipeline Test Module
 
-code build test
+code build test test
