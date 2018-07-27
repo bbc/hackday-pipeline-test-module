@@ -1,3 +1,3 @@
 # Lambda Pipeline Test Module
 
-code build test - woo hoo
+code build test
